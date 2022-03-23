@@ -12,10 +12,7 @@ class temp {
         int Avg = (i + j + k) / 3;
         System.out.println(str);
         System.out.println(Avg);
-
+        System.out.println();
     }
 
 }
-
-git config --global user.email "hpc.harsh.22@gmail.com"
-git config --global user.name "Harsh"
