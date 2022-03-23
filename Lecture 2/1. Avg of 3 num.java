@@ -12,7 +12,6 @@ class temp {
         int Avg = (i + j + k) / 3;
         System.out.println(str);
         System.out.println(Avg);
-        System.out.println();
     }
 
 }
