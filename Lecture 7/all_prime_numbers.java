@@ -1,8 +1,6 @@
 import java.util.Scanner;
 
-import javax.sql.rowset.spi.SyncResolver;
-
-class random {
+class all_prime_numbers {
 
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
