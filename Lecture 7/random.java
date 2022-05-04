@@ -11,8 +11,7 @@ class random {
             if (nf != 0) {
                 System.out.print(nf);
 
-            } else {
-            }
+            } else
             n /= 10;
         }
 

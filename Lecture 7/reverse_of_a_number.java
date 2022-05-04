@@ -11,8 +11,7 @@ class reverse_of_a_number {
             if (nf != 0) {
                 System.out.print(nf);
 
-            } else {
-            }
+            } else
             n /= 10;
         }
 
