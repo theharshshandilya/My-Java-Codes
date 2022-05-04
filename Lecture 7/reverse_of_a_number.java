@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class random {
+class reverse_of_a_number {
 
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
