@@ -10,7 +10,7 @@ class random {
             nf = n % 10;
             if (nf != 0) {
                 System.out.print(nf);
-
+                n/=10;
             } else
             n /= 10;
         }
