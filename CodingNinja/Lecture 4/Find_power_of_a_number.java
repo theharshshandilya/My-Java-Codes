@@ -6,7 +6,7 @@ class Find_power_of_a_number {
         int x = s.nextInt();
         int n = s.nextInt();
         int Result = 1;
-        for (; n > 0; n--) {
+        while( n-- > 0 ) {
             Result *= x;
         }
         System.out.println(Result);
