@@ -1,6 +1,6 @@
 import java.util.*;
 
-class random {
+class arrangeNumbersInArray {
 
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
@@ -20,6 +20,7 @@ class random {
                     System.out.print(i + " ");
                 }
             System.out.println();
+
         }
     }
 }
