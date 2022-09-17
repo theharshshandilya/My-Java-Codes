@@ -6,14 +6,15 @@ class Arrays_sum {
         Scanner s = new Scanner(System.in);
         int t = s.nextInt();
         while (t-- > 0) {
-            int size = s.nextInt();
-            int arr[] = new int[size];
+            // int size = s.nextInt();
+            int arr[] = new int[s.nextInt()];
             for (int i = 0; i < arr.length; i++) {
                 arr[i] = s.nextInt();
             }
             helper(arr);
         }
     }
+
     public static void helper(int arr[]) {
         int ans = 0;
         for (int i = 0; i < arr.length; i++) {
@@ -22,8 +23,9 @@ class Arrays_sum {
         System.out.println(ans);
     }
 }
+
 // 2
 // 5
-// 1 2 3 4 5 
+// 1 2 3 4 5
 // 3
 // 10 20 30

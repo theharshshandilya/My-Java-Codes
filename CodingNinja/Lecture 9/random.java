@@ -1,29 +1,28 @@
 import java.util.*;
 
 class random {
+    public static int helper(int[] arr) {
+        
+        for (int i = 0; i < arr.length; i += 2) {
+            arr[i] = arr[i++];
+            arr[i++] = arr[i];
+        }
+        return ;
+        
+        
+    }
 
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int t = s.nextInt();
         while (t-- > 0) {
-            int n = s.nextInt();
-            if (n % 2 == 0) {
-                for (int i = 1; i <= n; i += 2) {
-                    System.out.print(i + " ");
-                }
-                System.out.print(n + " ");
-                for (int i = n - 2; i >= 2; i -= 2) {
-                    System.out.print(i + " ");
-                }
-            } else {
-                for (int i = 1; i <= n; i += 2) {
-                    System.out.print(i + " ");
-                }
-                for (int i = n - 1; i >= 2; i -= 2) {
-                    System.out.print(i + " ");
-                }
-                System.out.println();
+            int arr[] = new int[s.nextInt()];
+            for (int i = 0; i < arr.length; i++) {
+                arr[i] = s.nextInt();
             }
+            System.out.println(helper(arr));
+
+
         }
     }
 }
