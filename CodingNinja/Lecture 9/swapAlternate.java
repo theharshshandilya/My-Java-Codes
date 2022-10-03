@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class random {
+class swapAlternate {
     public static void helper(int[] arr) {
         int a = 0;
         if (arr.length % 2 == 0) {
